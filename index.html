@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekklesia | Em Construção</title>
+    <meta name="description" content="Sua missão começa agora. Onde você está impactando o mundo? Despertar, discipular, capacitar e enviar uma geração para viver o Evangelho como estilo de vida.">
+    <meta name="keywords" content="Ekklesia, Evangelho, Discipulado, Missão, Evangelismo Urbano, Igreja">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Ekklesia - Em Construção">
+    <meta property="og:description" content="Sua missão começa agora. Onde você está impactando o mundo?">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,700&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animated Grid Slashes -->
+    <div class="bg-slashes" id="bgSlashes" aria-hidden="true"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo-wrapper" id="headerLogo">
+                <img src="assets/logo.png" alt="Ekklesia Logo" class="brand-logo-img">
+            </div>
+            
+            <div class="slashes-badge" title="Manual de Identidade Visual">
+                <span class="slash-item">/</span>
+                <span class="slash-item">/</span>
+                <span class="slash-item">/</span>
+                <span class="slash-item">/</span>
+                <span class="slash-item">/</span>
+                <span class="slash-item">/</span>
+                <span class="slash-item">/</span>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="badge-status">
+                    <span class="pulse-dot"></span>
+                    SITE EM CONSTRUÇÃO
+                </div>
+                
+                <h1 class="hero-title">
+                    Sua missão <span class="text-highlight">começa agora.</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Onde você está impactando o mundo?
+                </p>
+
+                <p class="hero-manifesto">
+                    "Despertar, discipular, capacitar e enviar uma geração para viver o Evangelho como estilo de vida."
+                </p>
+
+                <!-- Countdown Timer -->
+                <div class="countdown-wrapper">
+                    <h2 class="countdown-heading">Lançamento Oficial em:</h2>
+                    <div class="countdown-grid" id="countdown">
+                        <div class="countdown-card">
+                            <span class="countdown-number" id="days">00</span>
+                            <span class="countdown-label">DIAS</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-card">
+                            <span class="countdown-number" id="hours">00</span>
+                            <span class="countdown-label">HORAS</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-card">
+                            <span class="countdown-number" id="minutes">00</span>
+                            <span class="countdown-label">MINUTOS</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-card">
+                            <span class="countdown-number" id="seconds">00</span>
+                            <span class="countdown-label">SEGUNDOS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Newsletter / Lead Capture -->
+                <div class="notify-box">
+                    <h3>Quer ser o primeiro a saber quando estivemos no ar?</h3>
+                    <p>Cadastre seu e-mail e receba novidades e conteúdos exclusivos em primeira mão.</p>
+                    
+                    <form class="notify-form" id="notifyForm" novalidate>
+                        <div class="input-group">
+                            <i class="fa-regular fa-envelope input-icon"></i>
+                            <input type="email" id="emailInput" placeholder="Digite seu melhor e-mail" required aria-label="E-mail para notificação">
+                            <button type="submit" class="btn-primary" id="submitBtn">
+                                <span>QUERO SER NOTIFICADO</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="form-feedback" id="formFeedback" role="alert"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Concept / Pillars Section -->
+        <section class="pillars-section" id="conceito">
+            <div class="container">
+                <div class="section-header">
+                    <div class="vertical-tag">
+                        <span>/ / / / / / / / / / /</span>
+                        <span>CONCEITO</span>
+                    </div>
+                    <h2>Nossos Pilares Fundamentais</h2>
+                    <p>Conheça os valores que regem nossa visão e movimentam nossa comunidade.</p>
+                </div>
+
+                <div class="pillars-grid">
+                    <!-- Pillar 1 -->
+                    <div class="pillar-card" style="--card-color: #D82507;" data-pillar="amor">
+                        <div class="pillar-color-bar"></div>
+                        <div class="pillar-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <span class="pillar-tag">PILAR 01</span>
+                        <h3>Amor e Compaixão</h3>
+                        <p>O amor incondicional como base de tudo. Sentir a dor do próximo e mover-se com compaixão em direção às vidas.</p>
+                    </div>
+
+                    <!-- Pillar 2 -->
+                    <div class="pillar-card" style="--card-color: #00C8BD;" data-pillar="discipulado">
+                        <div class="pillar-color-bar"></div>
+                        <div class="pillar-icon">
+                            <i class="fa-solid fa-people-arrows"></i>
+                        </div>
+                        <span class="pillar-tag">PILAR 02</span>
+                        <h3>Discipulado Intencional</h3>
+                        <p>Caminhar junto, formar caráter e capacitar pessoas para que se tornem multiplicadoras do Reino.</p>
+                    </div>
+
+                    <!-- Pillar 3 -->
+                    <div class="pillar-card" style="--card-color: #004B55;" data-pillar="santidade">
+                        <div class="pillar-color-bar"></div>
+                        <div class="pillar-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <span class="pillar-tag">PILAR 03</span>
+                        <h3>Santidade e Verdade</h3>
+                        <p>Uma vida alinhada à palavra de Deus, vivendo com integridade, pureza e compromisso com a verdade.</p>
+                    </div>
+
+                    <!-- Pillar 4 -->
+                    <div class="pillar-card" style="--card-color: #FFC000;" data-pillar="comunicacao">
+                        <div class="pillar-color-bar"></div>
+                        <div class="pillar-icon">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                        <span class="pillar-tag">PILAR 04</span>
+                        <h3>Comunicação</h3>
+                        <p>Proclamar a mensagem de forma relevante, clara, criativa e acessível para a nossa geração.</p>
+                    </div>
+
+                    <!-- Pillar 5 -->
+                    <div class="pillar-card" style="--card-color: #6B8E23;" data-pillar="unidade">
+                        <div class="pillar-color-bar"></div>
+                        <div class="pillar-icon">
+                            <i class="fa-solid fa-handshake-simple"></i>
+                        </div>
+                        <span class="pillar-tag">PILAR 05</span>
+                        <h3>Unidade com a Igreja Local</h3>
+                        <p>Fortalecimento do corpo de Cristo, servindo lado a lado com a igreja local em harmonia e comunhão.</p>
+                    </div>
+
+                    <!-- Pillar 6 -->
+                    <div class="pillar-card" style="--card-color: #BFF202; --text-dark: 1;" data-pillar="evangelismo">
+                        <div class="pillar-color-bar"></div>
+                        <div class="pillar-icon">
+                            <i class="fa-solid fa-city"></i>
+                        </div>
+                        <span class="pillar-tag">PILAR 06</span>
+                        <h3>Evangelismo Urbano</h3>
+                        <p>Ações práticas que impactam o ambiente urbano, saindo das quatro paredes para levar transformação às ruas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Symbology Breakdown Section -->
+        <section class="symbology-section" id="simbologia">
+            <div class="container">
+                <div class="section-header">
+                    <div class="vertical-tag">
+                        <span>/ / / / / / / / / / /</span>
+                        <span>SIMBOLOGIA</span>
+                    </div>
+                    <h2>A Anatomia da Nossa Marca</h2>
+                    <p>Cada elemento do nosso símbolo carrega um significado profundo sobre nossa identidade e missão.</p>
+                </div>
+
+                <div class="symbology-display">
+                    <div class="symbol-hero">
+                        <img src="assets/symbol.png" alt="Símbolo Ekklesia" class="symbol-hero-img">
+                    </div>
+
+                    <div class="symbology-equation">
+                        <div class="equation-item">
+                            <div class="equation-badge">E.K</div>
+                            <h4>LETRAS E + K</h4>
+                            <p>Iniciais do nome, que criam conexão com a marca e fundam nossa identidade visual.</p>
+                        </div>
+
+                        <div class="equation-plus">+</div>
+
+                        <div class="equation-item">
+                            <div class="equation-badge icon-badge"><img src="assets/nail-symbol.png" alt="Prego da Crucificação" class="badge-icon-img"></div>
+                            <h4>PREGO DA CRUCIFICAÇÃO</h4>
+                            <p>Símbolo que refere-se à libertação, propósito e ao amor incondicional que nos chama para uma nova vida.</p>
+                        </div>
+
+                        <div class="equation-plus">+</div>
+
+                        <div class="equation-item">
+                            <div class="equation-badge icon-badge"><i class="fa-solid fa-chevron-left"></i></div>
+                            <h4>SETAS CONVERGINDO / DIVERGINDO</h4>
+                            <p>Representa pessoas vindo para o centro (unidade) ou sendo enviadas para o mundo (missão).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quotes / Banner -->
+        <section class="banner-section">
+            <div class="container">
+                <div class="quote-box">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <blockquote class="quote-text">
+                        "Sua missão começa agora. Onde você está impactando o mundo?"
+                    </blockquote>
+                    <div class="quote-brand">EKKLESIA MOVEMENT</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="Ekklesia Logo" class="footer-logo-img">
+                <p>Despertar, discipular, capacitar e enviar.</p>
+            </div>
+
+            <div class="footer-social">
+                <a href="#" class="social-link" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link" title="YouTube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="social-link" title="Spotify" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                <a href="#" class="social-link" title="WhatsApp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <div class="footer-copyright">
+                <p>&copy; <span id="currentYear"></span> Ekklesia Movement. Todos os direitos reservados.</p>
+                <div class="footer-slashes">/ / / / / / / / / / /</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
